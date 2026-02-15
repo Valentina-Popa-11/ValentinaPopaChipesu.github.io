@@ -2161,6 +2161,7 @@ input, select, textarea {
 			height: 3.5rem;
 			line-height: 3.5rem;
 			padding: 0 2.75rem;
+			margin: 0rem 0rem 5rem 0rem;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2183,6 +2184,7 @@ input, select, textarea {
 					font-size: 1rem;
 					height: 3.75rem;
 					line-height: 3.75rem;
+					margin: 0rem 0rem 5rem 0rem;
 				}
 
 		}
@@ -3778,6 +3780,10 @@ input, select, textarea {
 
 /* Main */
 
+    #project_button{
+		color:red;
+	}
+
 	#main {
 		background-color: #ffffff;
 		position: relative;
@@ -3821,6 +3827,11 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
+			}
+
+			#main > .post > .post.featured header.major {
+				text-align: center;
+				margin: 0 0 1rem 0;
 			}
 
 			@media screen and (max-width: 1280px) {
