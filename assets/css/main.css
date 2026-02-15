@@ -2902,21 +2902,18 @@ input, select, textarea {
 	}
 
 /* Section/Article */
-    #bold {
-		color: #ffffff;
-	}
 	
 	#sec1 {
-		display: inline-grid;
-		color: #ffffff;
-		text-indent: 10px;
-		padding: 1rem 0rem 2rem 2rem;
+		display: inline-flex;
+		padding: 0rem 2rem 0rem 0rem;
+		margin-right: 2rem;
+        column-gap: 2rem;
 	}
 
 	#sec {
 		color: #ffffff;
 		text-indent: 10px;
-		padding: 1rem 0rem 2rem 2rem;
+		padding: 1rem 2rem 2rem 0rem;
 	}
 
 	section.special, article.special {
@@ -3806,6 +3803,10 @@ input, select, textarea {
 
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
+		}
+
+		#main > .post > p {
+			text-indent: 20px;
 		}
 
 			#main > .post header.major > .date {
@@ -4713,4 +4714,3 @@ input, select, textarea {
 		}
 
 	}
-
